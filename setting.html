@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Setiing</title>
+  </head>
+  <body>
+    <main class="row m-0">
+      <div class="side-bar col-lg-2 p-2 col-md-3 col-2 shadow bg-white z-">
+        <h3 class="position-relative text-center pb-3 fw-bold fs-3">Elzero</h3>
+        <ul class="list-unstyled pt-3 navs">
+          <li class="p-2 mb-2">
+            <a href="index.html" class="d-flex align-items-center">
+              <i class="fa-solid fa-chart-bar"></i>
+              <p class="mb-0 ms-2">Dashboard</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2 active">
+            <a href="setting.html" class="d-flex align-items-center">
+              <i class="fa-solid fa-gear"></i>
+              <p class="mb-0 ms-2">Settings</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2">
+            <a href="profile.html" class="d-flex align-items-center">
+              <i class="fa-regular fa-user"></i>
+              <p class="mb-0 ms-2">Porfile</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2">
+            <a href="project.html" class="d-flex align-items-center">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <p class="mb-0 ms-2">Projects</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2">
+            <a href="courses.html" class="d-flex align-items-center">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <p class="mb-0 ms-2">Courses</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2">
+            <a href="friends.html" class="d-flex align-items-center">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <p class="mb-0 ms-2">Friends</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2">
+            <a href="files.html" class="d-flex align-items-center">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <p class="mb-0 ms-2">Files</p>
+            </a>
+          </li>
+          <li class="p-2 mb-2">
+            <a href="plans.html" class="d-flex align-items-center">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <p class="mb-0 ms-2">Plans</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content p-0 col-lg-10 col-md-9 col-10 overflow-hidden">
+        <div
+          class="header d-flex p-3 align-items-center justify-content-between bg-white p-2"
+        >
+          <form action="#" class="d-flex position-relative">
+            <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+            <input type="text" placeholder="Type A Keyword" class="border" />
+          </form>
+          <div class="profile-details d-flex align-items-center gap-3">
+            <span class="position-relative">
+              <i class="fa-regular fa-bell fs-5"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="main-title mb-4 mt-4 position-relative d-flex">
+            <h1 class="fw-bold">Settings</h1>
+          </div>
+          <div class="row setting-section">
+            <div class="col-lg-6 mb-5 site-control">
+              <div class="box rounded bg-white overflow-hidden p-3 h-100">
+                <h5 class="fw-bold">Site Control</h5>
+                <span class="text-black-50 mb-4 d-block fw-semibold"
+                  >Control The Website If There Is Maintenance
+                </span>
+
+                <div
+                  class="web-control mb-4 d-flex justify-content-between align-items-center"
+                >
+                  <div class="text d-flex flex-column">
+                    <span class="text-dark fw-semibold">Website Control </span>
+                    <span class="text-black-50 fw-semibold"
+                      >Open/Close Website And Type The Reason
+                    </span>
+                  </div>
+                  <div class="switch-toggle">
+                    <label>
+                      <input type="checkbox" class="toggle-btn" checked />
+                      <div class="toggle-div rounded-pill"></div>
+                    </label>
+                  </div>
+                </div>
+                <textarea
+                  placeholder="Close Message Content"
+                  class="p-2 rounded border w-100"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 info">
+              <div class="bg-white h-100 p-3 rounded box">
+                <h5 class="fw-bold">General Info</h5>
+                <span class="text-black-50 mb-4 d-block"
+                  >General Information About Your Account
+                </span>
+
+                <form action="">
+                  <div class="d-flex flex-column mb-3">
+                    <label for="name" class="text-black-50 fw-semibold mb-2"
+                      >First Name</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="First Name"
+                      class="rounded border p-2"
+                    />
+                  </div>
+                  <div class="d-flex flex-column mb-3">
+                    <label for="name" class="text-black-50 fw-semibold mb-2"
+                      >Last Name</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Last Name"
+                      class="rounded border p-2"
+                    />
+                  </div>
+
+                  <div class="d-flex flex-column mb-3">
+                    <label for="name" class="text-black-50 fw-semibold mb-2"
+                      >Email</label
+                    >
+                    <div
+                      class="d-flex align-items-center justify-content-between gap-2"
+                    >
+                      <input
+                        type="text"
+                        id="name"
+                        placeholder="o@nn.sa"
+                        class="rounded border p-2 w-100 hidden"
+                        disabled
+                      />
+                      <span class="text-primary btn fw-bold">Change</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 security">
+              <div class="bg-white h-100 p-3 rounded box">
+                <h5 class="fw-bold">Security Info</h5>
+                <span class="text-black-50 d-block fw-semibold mb-4"
+                  >Security Information About Your Account
+                </span>
+
+                <div
+                  class="password border-1 border-bottom mb-3 pb-4 d-flex justify-content-between align-items-center"
+                >
+                  <div class="text d-flex flex-column">
+                    <span class="text-dark fw-semibold">Password </span>
+                    <span class="text-black-50"
+                      >Last Change On 25/10/2021
+                    </span>
+                  </div>
+                  <span class="btn btn-primary">Change</span>
+                </div>
+                <div
+                  class="border-1 mb-3 border-bottom pb-4 d-flex justify-content-between align-items-center"
+                >
+                  <div class="text d-flex flex-column">
+                    <span class="text-dark fw-semibold"
+                      >Two-Factor Authentication
+                    </span>
+                    <span class="text-black-50"
+                      >Enable/Disable The Feature
+                    </span>
+                  </div>
+                  <div class="switch-toggle">
+                    <label>
+                      <input type="checkbox" class="toggle-btn" />
+                      <div class="toggle-div rounded-pill"></div>
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="mb-3 d-flex justify-content-between align-items-center"
+                >
+                  <div class="text d-flex flex-column">
+                    <span class="text-dark fw-semibold">Devices</span>
+                    <span class="text-black-50"
+                      >Check The Login Devices List
+                    </span>
+                  </div>
+                  <span class="info-btn fw-semibold ps-2 pe-2 p-1"
+                    >Devices</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 social-info">
+              <div class="bg-white h-100 rounded p-3">
+                <h5 class="fw-bold">Social Info</h5>
+                <span class="text-black-50 mb-3 d-block"
+                  >Social Media Information
+                </span>
+                <div class="social-icon">
+                  <div class="d-flex align-items-center mb-4">
+                    <i class="fa-brands fa-twitter border"></i>
+                    <input
+                      type="text"
+                      placeholder="Twitter Username"
+                      class="fw-semibold fs-6 border w-100 p-1 ps-3 pe-3 border-start-0"
+                    />
+                  </div>
+                  <div class="d-flex align-items-center mb-4">
+                    <i class="fa-brands fa-facebook-f border"></i>
+                    <input
+                      type="text"
+                      placeholder="Twitter Username"
+                      class="fw-semibold fs-6 border w-100 p-1 ps-3 pe-3 border-start-0"
+                    />
+                  </div>
+                  <div class="d-flex align-items-center mb-4">
+                    <i class="fa-brands fa-linkedin border"></i>
+                    <input
+                      type="text"
+                      placeholder="Twitter Username"
+                      class="fw-semibold fs-6 border w-100 p-1 ps-3 pe-3 border-start-0"
+                    />
+                  </div>
+                  <div class="d-flex align-items-center mb-4">
+                    <i class="fa-brands fa-youtube border"></i>
+                    <input
+                      type="text"
+                      placeholder="Twitter Username"
+                      class="fw-semibold fs-6 border w-100 p-1 ps-3 pe-3 border-start-0"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5">
+              <div class="bg-white h-100 rounded p-3">
+                <h5 class="fw-bold">Widgets Control</h5>
+                <span class="text-black-50 mb-3 d-block"
+                  >Show/Hide Widgets
+                </span>
+
+                <div class="check-box">
+                  <div class="mb-4 d-flex align-items-center">
+                    <input type="checkbox" id="one" checked />
+                    <label for="one" class="user-select-none position-relative"
+                      >Quick Draft
+                    </label>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <input type="checkbox" id="two" checked />
+                    <label for="two" class="user-select-none position-relative"
+                      >Show/Hide Widgets
+                    </label>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <input type="checkbox" id="three" checked />
+                    <label
+                      for="three"
+                      class="user-select-none position-relative"
+                      >Yearly Targets
+                    </label>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <input type="checkbox" id="four" checked />
+                    <label for="four" class="user-select-none position-relative"
+                      >Tickets Statistics
+                    </label>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <input type="checkbox" id="five" />
+                    <label for="five" class="user-select-none position-relative"
+                      >Latest Tasks
+                    </label>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <input type="checkbox" id="six" checked />
+                    <label for="six" class="user-select-none position-relative"
+                      >Top Search Items
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 backup">
+              <div class="bg-white h-100 rounded p-3">
+                <h5 class="fw-bold">Backup Manager</h5>
+                <span class="text-black-50 mb-3 d-block"
+                  >Control Backup Time And Location
+                </span>
+
+                <div class="radio-box border-bottom">
+                  <div class="mb-3">
+                    <input type="radio" name="radio" id="radio-one" />
+                    <label
+                      for="radio-one"
+                      class="user-select-none position-relative"
+                      >Daily</label
+                    >
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="radio" name="radio" id="radio-two" checked />
+                    <label
+                      for="radio-two"
+                      class="user-select-none position-relative"
+                      >Weekly</label
+                    >
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="radio" name="radio" id="radio-three" />
+                    <label
+                      for="radio-three"
+                      class="user-select-none position-relative"
+                      >Monthly</label
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="widget-style flex-column flex-md-row d-flex gap-2 mt-4 text-center align-items-center"
+                >
+                  <input type="radio" name="ch" id="meg" />
+                  <div class="server w-100 rounded mb-4">
+                    <label for="meg" class="d-block m-4">
+                      <i class="fa-solid fa-server d-block mb-3"></i>
+                      Megaman
+                    </label>
+                  </div>
+                  <input type="radio" name="ch" id="zero" checked />
+                  <div class="server w-100 rounded mb-4">
+                    <label for="zero" class="d-block m-4">
+                      <i class="fa-solid fa-server d-block mb-3"></i>
+                      Zero
+                    </label>
+                  </div>
+                  <input type="radio" name="ch" id="sigma" />
+                  <div class="server w-100 rounded mb-4">
+                    <label for="sigma" class="d-block m-4">
+                      <i class="fa-solid fa-server d-block mb-3"></i>
+                      Sigma
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
